@@ -1,9 +1,9 @@
 ArduFrauenfelderCNC
 =============================
 Copyright 2011 Design Tech Industries (DTI)  & Tamworth Hackerspace
-DTI email: <jameskun89@rocketmail.com> 
-THS: https://groups.google.com/group/tamworth-hackerspace
-     http://tamworthhackerspace.org 
+DTI email: <jameskun89@rocketmail.com> |
+THS: <http://tamworthhackerspace.org> |
+Google Group: <https://groups.google.com/group/tamworth-hackerspace> |
 
 The ArduFrauenfelderCNC is an Arduino compatible custom board with 
 stepper motor drivers, running grbl.
