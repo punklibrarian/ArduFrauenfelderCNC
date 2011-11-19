@@ -4,7 +4,7 @@ Copyright 2011 Design Tech Industries (DTI)  & Tamworth Hackerspace
 
 DTI email: <jameskun89@rocketmail.com> |
 THS: <http://tamworthhackerspace.org> |
-Google Group: <https://groups.google.com/group/tamworth-hackerspace> |
+Google Group: <https://groups.google.com/group/tamworth-hackerspace>
 
 The ArduFrauenfelderCNC is an Arduino compatible custom board with 
 stepper motor drivers, running grbl.
@@ -27,13 +27,22 @@ along with a grbl file configured for the board.
 endeavour to create the board satisfactorily. If you can help in this regard please 
 contact me, as well as if you find something that needs correction**
 
+
 INSTALLATION
 ------------
+**EAGLE**
 The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
 navigate to Projects -> eagle -> ArduFrauenfelderCNC.
+
+**KiCad**
+KiCad EDA Suite is an Open Source alternative to EAGLE. It is available on Windows and Linux 
+and can be installed on Mac. It is available from http://kicad.sourceforge.net and works in a 
+similar way to EAGLE. You will find project files for KiCad in the aptly named folder in this 
+repository.
+
 
 DISTRIBUTION
 ------------
@@ -73,3 +82,6 @@ which includes:
  * Tom Igoe
  * Gianluca Martino
  * David A. Mellis
+
+As well as Brian Schmalz, the creator of the EasyDriver Stepper Motor Driver
+(http://schmalzhaus.com/EasyDriver).
