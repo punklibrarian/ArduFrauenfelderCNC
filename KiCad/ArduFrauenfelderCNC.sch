@@ -1,0 +1,479 @@
+EESchema Schematic File Version 1
+LIBS:EasyDriver,SparkFun,atmel,.\ArduFrauenfelderCNC-cache-cache
+EELAYER 23 0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "ArduFrauenfelderCNC.sch"
+Date "19 NOV 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_CAP C1
+U 1 1 4EC71D63
+P 1550 4350
+F 0 "C1" H 1610 4465 70 0000 L B
+F 1 "0.1uF" H 1610 4265 70 0000 L B
+	1    1550 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_CAP C2
+U 1 1 4EC71D63
+P 1550 4550
+F 0 "C2" H 1610 4665 70 0000 L B
+F 1 "0.1uF" H 1410 4365 70 0000 L B
+	1    1550 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_CAP_POL C5
+U 1 1 4EC71D63
+P 4250 350
+F 0 "C5" H 4290 374 70 0000 L B
+F 1 "10uF/25V" H 4289 185 70 0000 L B
+	1    4250 350 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_CAP_POL C6
+U 1 1 4EC71D63
+P 2350 350
+F 0 "C6" H 2390 374 70 0000 L B
+F 1 "10uF/25V" H 2390 585 70 0000 L B
+	1    2350 350 
+	1    0    0    -1  
+$EndComp
+$Comp
+L IC_MEGA8-P IC1
+U 1 1 4EC71D63
+P 3250 4750
+F 0 "IC1" H 2550 3350 70 0000 L B
+F 1 "MEGA8-P" H 2551 6000 70 0000 L B
+	1    3250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L J_POWER_JACK J1
+U 1 1 4EC71D63
+P 1750 150
+F 0 "POWER_JACKPTH_LOCK" H 1350 550 70 0000 L B
+F 1 "J1" H 1350 150 70 0000 L B
+	1    1750 150 
+	1    0    0    -1  
+$EndComp
+$Comp
+L J_POWER_JACK J2
+U 1 1 4EC71D63
+P 10850 8350
+F 0 "POWER_JACKPTH_LOCK" H 10450 8750 70 0000 L B
+F 1 "J2" H 10450 8350 70 0000 L B
+	1    10850 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JP_FTDI_BASIC JP1
+U 1 1 4EC71D63
+P 1350 7250
+F 0 "FTDI_BASICPTH" H 1150 6850 70 0000 L B
+F 1 "JP1" H 1151 7680 70 0000 L B
+	1    1350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_LED LED1
+U 1 1 4EC71D63
+P 1650 1350
+F 0 "LED1" V 1790 1170 70 0000 L B
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_V_REG_317 LM7805
+U 1 1 4EC71D63
+P 3250 250
+F 0 "LM7805" H 3349 -50 70 0000 L B
+F 1 "LM7805" H 3349 -150 70 0000 L B
+F 2 "ADJ" H 3170 80 60 0000 L B
+F 3 "IN" H 3075 226 60 0000 L B
+F 4 "OUT" H 3275 225 60 0000 L B
+	1    3250 250 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_RESISTOR R1
+U 1 1 4EC71D63
+P 1050 2050
+F 0 "R1" H 900 2109 70 0000 L B
+F 1 "330 Ohm 1/6th Watt PTH" H 900 1920 70 0000 L B
+	1    1050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_RESISTOR R2
+U 1 1 4EC71D63
+P 1050 2350
+F 0 "R2" H 900 2409 70 0000 L B
+F 1 "10k Ohm 1/6th Watt PTH" H 900 2220 70 0000 L B
+	1    1050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_TAC_SWITCH S1
+U 1 1 4EC71D63
+P 2350 2250
+F 0 "S1" H 2251 2500 70 0000 L B
+	1    2350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L EasyDriver_EASYDRIVER_V44 X_AXIS
+U 1 1 4EC71D63
+P 9050 6050
+F 0 "EASYDRIVER_V44" H 9950 5950 50 0000 L B
+F 1 "X_AXIS" H 9950 6149 50 0000 L B
+	1    9050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Y_CRYSTAL Y1
+U 1 1 4EC71D63
+P 1950 4450
+F 0 "Y1" H 2050 4490 70 0000 L B
+F 1 "16Mhz" H 2050 4350 70 0000 L B
+F 2 "1" H 1865 4405 34 0000 L B
+F 3 "2" H 2010 4405 34 0000 L B
+	1    1950 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EasyDriver_EASYDRIVER_V44 Y_AXIS
+U 1 1 4EC71D63
+P 9050 3350
+F 0 "EASYDRIVER_V44" H 9950 3250 50 0000 L B
+F 1 "Y_AXIS" H 9950 3449 50 0000 L B
+	1    9050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L EasyDriver_EASYDRIVER_V44 Z_AXIS
+U 1 1 4EC71D63
+P 9050 750
+F 0 "EASYDRIVER_V44" H 9950 650 50 0000 L B
+F 1 "Z_AXIS" H 9950 849 50 0000 L B
+	1    9050 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+2350 4350 1950 4350
+Wire Wire Line
+1950 4350 1650 4350
+Connection ~ 1950 4350
+Wire Wire Line
+1650 4550 1950 4550
+Wire Wire Line
+1950 4550 2350 4550
+Connection ~ 1950 4550
+Wire Wire Line
+4250 4850 9550 4850
+Wire Wire Line
+9550 4850 9550 4050
+Wire Wire Line
+9550 4050 9650 3850
+Wire Wire Line
+1650 1550 1250 1550
+Wire Wire Line
+1250 1550 1250 2050
+Wire Wire Line
+1250 2350 1250 2550
+Wire Wire Line
+1250 2550 2350 2550
+Wire Wire Line
+2350 2550 2550 2550
+Wire Wire Line
+2550 2550 2550 2350
+Wire Wire Line
+2550 2350 2550 2250
+Wire Wire Line
+2350 3650 2350 3450
+Wire Wire Line
+2350 3450 2350 2550
+Wire Wire Line
+1550 7450 5650 7450
+Wire Wire Line
+5650 7450 5650 3450
+Wire Wire Line
+5650 3450 2350 3450
+Connection ~ 2350 3450
+Connection ~ 2350 2550
+Connection ~ 2550 2350
+Wire Wire Line
+850 2050 850 2350
+Wire Wire Line
+1850 -150 2350 -150
+Wire Wire Line
+2350 -150 2350 250
+Wire Wire Line
+2350 250 2950 250
+Connection ~ 2350 250
+Connection ~ 2950 250
+Wire Wire Line
+9550 6550 9550 6750
+Wire Wire Line
+8450 6550 7950 6550
+Wire Wire Line
+7950 6550 6750 6550
+Wire Wire Line
+6750 6550 6750 4650
+Wire Wire Line
+9550 3850 9450 4050
+Wire Wire Line
+9450 4050 9450 4650
+Wire Wire Line
+9450 4650 6750 4650
+Wire Wire Line
+6750 4650 6750 3850
+Wire Wire Line
+8450 3850 6750 3850
+Wire Wire Line
+6750 3850 6750 3150
+Wire Wire Line
+2150 3850 2350 3850
+Wire Wire Line
+2150 3350 2150 3850
+Wire Wire Line
+4250 3350 2150 3350
+Wire Wire Line
+1850 50 1850 550
+Wire Wire Line
+1850 550 2350 550
+Wire Wire Line
+2350 550 3250 550
+Wire Wire Line
+3250 550 4250 550
+Wire Wire Line
+4250 550 4250 3150
+Wire Wire Line
+4250 3150 4250 3350
+Wire Wire Line
+4250 3150 6750 3150
+Wire Wire Line
+6750 3150 6750 1550
+Wire Wire Line
+9550 1250 9550 1550
+Wire Wire Line
+9550 1550 6750 1550
+Wire Wire Line
+6750 1550 6750 1250
+Wire Wire Line
+6750 1250 8450 1250
+Wire Wire Line
+9550 6750 7950 6750
+Wire Wire Line
+7950 6750 7950 6550
+Connection ~ 6750 4650
+Connection ~ 6750 3850
+Connection ~ 2350 550
+Connection ~ 3250 550
+Connection ~ 4250 550
+Connection ~ 4250 3150
+Connection ~ 6750 3150
+Connection ~ 6750 1550
+Connection ~ 7950 6550
+Wire Wire Line
+2350 4850 2150 4850
+Wire Wire Line
+2150 4850 2150 5550
+Wire Wire Line
+2150 5550 2350 5550
+Wire Wire Line
+2350 5550 2950 5550
+Wire Wire Line
+2950 5550 2950 1650
+Wire Wire Line
+2950 1650 2050 750
+Wire Wire Line
+2050 750 2050 150
+Wire Wire Line
+2050 150 1850 -50
+Wire Wire Line
+1550 6950 1550 5550
+Wire Wire Line
+1550 5550 2150 5550
+Wire Wire Line
+2350 5550 2350 8050
+Wire Wire Line
+10650 8250 10650 8050
+Wire Wire Line
+10650 8050 2350 8050
+Connection ~ 2150 5550
+Connection ~ 2350 5550
+Wire Wire Line
+4250 4650 4650 4650
+Wire Wire Line
+4650 4650 4750 4650
+Wire Wire Line
+1550 7250 4850 7250
+Wire Wire Line
+4850 7250 4850 4650
+Wire Wire Line
+4850 4650 4750 4650
+Wire Wire Line
+4250 4550 4650 4550
+Wire Wire Line
+4650 4550 4650 7350
+Wire Wire Line
+4650 7350 1550 7350
+Wire Wire Line
+9750 3850 9750 5150
+Wire Wire Line
+9750 5150 4250 5150
+Wire Wire Line
+9650 6550 9650 6950
+Wire Wire Line
+9650 6950 5050 6950
+Wire Wire Line
+5050 6950 5050 4750
+Wire Wire Line
+5050 4750 4250 4750
+Wire Wire Line
+10550 8250 10550 4550
+Wire Wire Line
+10550 4550 10550 2050
+Wire Wire Line
+10550 2050 10550 50
+Wire Wire Line
+10550 50 9650 50
+Wire Wire Line
+9650 50 9650 150
+Wire Wire Line
+9650 2750 9650 2050
+Wire Wire Line
+9650 2050 10550 2050
+Wire Wire Line
+9650 5450 9650 4550
+Wire Wire Line
+9650 4550 10550 4550
+Connection ~ 10550 2050
+Connection ~ 10550 4550
+Wire Wire Line
+4250 5050 7450 5050
+Wire Wire Line
+7450 5050 7450 7150
+Wire Wire Line
+7450 7150 9750 7150
+Wire Wire Line
+9750 7150 9750 6550
+Wire Wire Line
+3550 250 4250 250
+Wire Wire Line
+4250 -550 4250 250
+Wire Wire Line
+550 -550 4250 -550
+Wire Wire Line
+550 5050 550 -550
+Wire Wire Line
+8550 1350 8550 1250
+Wire Wire Line
+6350 1350 8550 1350
+Wire Wire Line
+6350 4150 6350 1350
+Wire Wire Line
+8550 3850 8550 4150
+Wire Wire Line
+8550 4150 6350 4150
+Wire Wire Line
+8550 6550 8550 6850
+Wire Wire Line
+8550 6850 6350 6850
+Wire Wire Line
+6350 6850 6350 6750
+Wire Wire Line
+6350 6750 6350 4150
+Wire Wire Line
+2050 6750 6350 6750
+Wire Wire Line
+2350 5050 2050 5050
+Wire Wire Line
+2050 5050 2050 6750
+Wire Wire Line
+2050 5050 1750 5050
+Wire Wire Line
+1550 7150 1750 7150
+Wire Wire Line
+1750 7150 1750 5050
+Wire Wire Line
+1750 5050 1350 5050
+Wire Wire Line
+1850 1250 1650 1250
+Wire Wire Line
+2150 2350 2150 2250
+Wire Wire Line
+2150 2250 1850 2250
+Wire Wire Line
+1850 2250 1850 1250
+Wire Wire Line
+1850 2250 1850 3650
+Wire Wire Line
+1850 3650 1350 3650
+Wire Wire Line
+1350 3650 1350 4350
+Wire Wire Line
+1350 4350 1350 4550
+Wire Wire Line
+1350 4550 1350 5050
+Wire Wire Line
+1350 5050 550 5050
+Connection ~ 3550 250
+Connection ~ 4250 250
+Connection ~ 6350 4150
+Connection ~ 6350 6750
+Connection ~ 2050 5050
+Connection ~ 1750 5050
+Connection ~ 2150 2250
+Connection ~ 1850 2250
+Connection ~ 1350 4350
+Connection ~ 1350 4550
+Connection ~ 1350 5050
+Wire Wire Line
+10750 8250 10750 5450
+Wire Wire Line
+10750 5450 10750 2750
+Wire Wire Line
+10750 2750 10750 150
+Wire Wire Line
+10750 150 9750 150
+Wire Wire Line
+9750 2750 10750 2750
+Wire Wire Line
+9750 5450 10750 5450
+Connection ~ 10750 5450
+Connection ~ 10750 2750
+Wire Wire Line
+9750 1250 10950 1250
+Wire Wire Line
+10950 1250 10950 7550
+Wire Wire Line
+10950 7550 5950 7550
+Wire Wire Line
+5950 7550 5950 5250
+Wire Wire Line
+5950 5250 4250 5250
+Wire Wire Line
+9650 1250 9650 1350
+Wire Wire Line
+9650 1350 11050 1350
+Wire Wire Line
+11050 1350 11050 7650
+Wire Wire Line
+11050 7650 6050 7650
+Wire Wire Line
+6050 7650 6050 4950
+Wire Wire Line
+6050 4950 4250 4950
+$EndSCHEMATC
