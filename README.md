@@ -18,14 +18,15 @@ Features:
  * Open Source, including commercial use (read license)
 
 The "docs" folder within this repository includes a handy copy of the
-schematic in PDF format and images of the pcb.
+schematic in PNG format and images of the physical pcb/mill.
 
 In this repository you will find the project (.pro), board (.brd) and schematic (.sch), 
-along with a grbl file configured for the board.
+along with a grbl file configured specifically for the board. You will also find Gerber files 
+ready to send to fabrication houses (BatchPCB to be precise).
 
-**At the moment there is only the project, schematic and board files as it is an ongoing 
-endeavour to create the board satisfactorily. If you can help in this regard please 
-contact me, as well as if you find something that needs correction**
+**At the moment the files you find here are in the process of development and as such are not 
+production ready. It is an ongoing endeavour to create the board satisfactorily. If you can 
+help in this regard please contact me, as well as if you find something that needs correction**
 
 
 INSTALLATION
