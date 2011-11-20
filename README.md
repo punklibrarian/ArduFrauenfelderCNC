@@ -6,27 +6,37 @@ DTI email: <jameskun89@rocketmail.com> |
 THS: <http://tamworthhackerspace.org> |
 Google Group: <https://groups.google.com/group/tamworth-hackerspace>
 
-The ArduFrauenfelderCNC is an Arduino compatible custom board with 
+The ArduFrauenfelderCNC is a CNC mill run by an Arduino compatible custom board with 
 stepper motor drivers, running grbl.
 
-Features:
+Board Features:
 
  * ATmega328 MCU
  * SparkFun EasyDriver v4.4
  * Power LED & Reset switch
  * Populated pins for FTDI breakout board
- * Open Source, including commercial use (read license)
+ * Open Source; OSHW compliant
 
-The "docs" folder within this repository includes a handy copy of the
-schematic in PNG format and images of the physical pcb/mill.
-
-In this repository you will find the project (.pro), board (.brd) and schematic (.sch), 
-along with a grbl file configured specifically for the board. You will also find Gerber files 
-ready to send to fabrication houses (BatchPCB to be precise).
+In this repository you will find the gerber files, project (.pro), board (.brd) and schematic (.sch), 
+along with a grbl file configured specifically for the board.
 
 **At the moment the files you find here are in the process of development and as such are not 
 production ready. It is an ongoing endeavour to create the board satisfactorily. If you can 
 help in this regard please contact me, as well as if you find something that needs correction**
+
+INSIDE REPOSITORY
+-----------------
+The 'docs' folder within this repository includes a handy copy of the
+schematic in PNG format and images of the physical pcb/mill.
+
+The 'mill' folder within this repository has design files for the physical mill and 
+documentation for it's construction.
+
+The 'gerber' folder within this repository has all the files needed to send to a fabrication house
+(BatchPCB to be precise) for manufacture.
+
+The 'EAGLE' and 'KiCad' folders within this repository has their respective formats of PCB design files
+allowing for further public development or alteration for other needs.
 
 
 INSTALLATION
@@ -69,7 +79,7 @@ or send a letter to
   USA
 
 The "license" folder within this repository also contains copies of the
-licenses referenced above.
+license(s) referenced above.
 
 
 CREDITS
