@@ -21,7 +21,6 @@ license referenced below.
 
 LICENSES
 --------
-
 > MILL
 > ----
 > This work is licensed under the Creative Commons Attribution-ShareAlike License 3.0  
