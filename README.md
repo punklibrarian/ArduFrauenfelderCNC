@@ -24,20 +24,16 @@ along with a grbl file configured specifically for the board.
 production ready. It is an ongoing endeavour to create the board satisfactorily. If you can 
 help in this regard please contact me, as well as if you find something that needs correction**
 
-INSIDE REPOSITORY
------------------
+INSIDE THIS REPOSITORY
+----------------------
 The 'docs' folder within this repository includes a handy copy of the
 schematic in PNG format and images of the physical pcb/mill.
 
 The 'mill' folder within this repository has design files for the physical mill and 
 documentation for it's construction.
 
-The 'gerber' folder within this repository has all the files needed to send to a fabrication house
-(BatchPCB to be precise) for manufacture.
-
-The 'EAGLE' and 'KiCad' folders within this repository has their respective formats of PCB design files
-allowing for further public development or alteration for other needs.
-
+The 'controller' folder within this repository has all the files needed to create the controller board. 
+It has the  'gerber', 'EAGLE' and 'KiCad' folders.
 
 INSTALLATION
 ------------
