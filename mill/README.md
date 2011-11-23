@@ -6,6 +6,9 @@ In the 'mill' folder of this repository you will find the design files for the p
 You will be able to use the 3D model of the mill and will be available in either SKP, DXF or STL 
 format, most likely all three.
 
+**The .SKP currently in this repository is, like the controller board, in beta versioning and as 
+such is not for production. It is available for alteration and critque**
+
 The physical mill is being designed to be manufactured by Ponoko (http://ponoko.com) and as such 
 the actual production files for the mill will be made available in EPS format.
 
