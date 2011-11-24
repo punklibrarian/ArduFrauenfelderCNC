@@ -6,11 +6,15 @@ In the 'mill' folder of this repository you will find the design files for the p
 You will be able to use the 3D model of the mill and will be available in either SKP, DXF or STL 
 format, most likely all three.
 
-**The .SKP currently in this repository is, like the controller board, in beta versioning and as 
-such is not for production. It is available for alteration and critque**
-
 The physical mill is being designed to be manufactured by Ponoko (http://ponoko.com) and as such 
-the actual production files for the mill will be made available in EPS format.
+the actual production files for the mill will be made available in SVG and EPS formats. You will 
+find the files needed in the 'Laser Cutting' folder. You will also find the faces exported from 
+SketchUp, which are used to create the templates in the 'Laser Cutting' folder.
+
+**The SKP, SVG and EPS files currently in this repository are, like the controller board, in 
+beta versioning and as such are not ready for actual production. They are merely here for public 
+critique, i.e: If you see something wrong, or you think I could be doing something better, then let 
+me know.**
 
 You will also find a manual for the assembly of the mill, which includes the construction of the 
 physical mill and it's controller board. 
