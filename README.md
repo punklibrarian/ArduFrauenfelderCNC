@@ -33,8 +33,8 @@ help in this regard please contact me, as well as if you find something that nee
 
 INSIDE THIS REPOSITORY
 ----------------------
-The 'docs' folder within this repository includes a handy copy of the
-schematic in PNG format and images of the physical pcb/mill.
+The 'docs' folder within this repository includes a handy copy of the schematic in PNG format and images 
+of the physical pcb/mill, along with assembly documentation.
 
 The 'mill' folder within this repository has design files for the physical mill and documentation 
 for it's construction. It has 'sketchup_exported_faces', 'sketchup_models' and 'laser_cutting' folders.
