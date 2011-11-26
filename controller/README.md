@@ -6,8 +6,11 @@ In the 'controller' folder of this repository you can find the design files for 
 You will find project files in EAGLE and KiCad formats, as well as completed gerber files for the board 
 ready to be sent to BatchPCB, which is the the service I designed this board to use, for manufacture.
 
+I have also added eagleUp (http://eagleup.wordpress.com) files as well as a SKP of the resulting conversion 
+(minus parts as there aren't any at the moment).
+
 You will also find a customised version of Grbl in the form of a .HEX file. Later versions of the controller 
-board will use rStep 
+board will use rStep.
 
 INSTALLATION
 ------------
@@ -24,7 +27,8 @@ files for KiCad in the aptly named folder in this repository. To use this projec
 containing these files into a folder of your choice. Then open KiCad and navigate to File -> Open -> 
 'FOLDER_OF_YOUR_CHOICE' -> ArduFrauenfelderCNC.pro
 
-You will also find a manual in the 'docs' folder for the assembly of the controller board, with colour photos and diagrams. **Documentation is separately licensed. See LICENSE section below**
+You will also find a manual in the 'docs' folder for the assembly of the controller board, with colour photos and diagrams. 
+**Documentation is separately licensed. See LICENSE section below**
 
 DISTRIBUTION
 ------------
