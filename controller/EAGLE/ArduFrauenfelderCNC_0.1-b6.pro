@@ -2,14 +2,14 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/jamie/github/ArduFrauenfelderCNC/controller/EAGLE/ArduFrauenfelderCNC_0.1-b6.brd
 
-Start at      : 10:31:33 (26/11/11)
-End at        : 10:31:33 (26/11/11)
+Start at      : 11:52:29 (27/11/11)
+End at        : 11:52:29 (27/11/11)
 Elapsed time  : 00:00:00
 
 Signals       :    20   RoutingGrid: 50 mil  Layers: 2
-Connections   :    48   predefined:  0 ( 0 Vias )
+Connections   :    50   predefined:  48 ( 1 Vias )
 
-Router memory :   28336
+Router memory :   26796
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :        13        48        48        48        48        48
-Vias              :         0        44         6         0         0         0
-Resolution        :    27.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0         2         2         2         2         2
+Vias              :         0         1         0         0         0         0
+Resolution        :    96.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
