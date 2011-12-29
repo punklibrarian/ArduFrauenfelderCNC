@@ -6463,8 +6463,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="302.26" y="-109.22" size="2.54" layer="94">Jamie Johnston</text>
-<text x="302.26" y="-99.06" size="2.54" layer="94">0.1-b4</text>
+<text x="302.90509375" y="-109.4351875" size="2.54" layer="94">Jamie Johnston</text>
+<text x="300.59325" y="-99.516825" size="2.54" layer="94">0.1-b9</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="55.88" y="0"/>
