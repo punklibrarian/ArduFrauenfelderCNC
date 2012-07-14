@@ -1,6 +1,12 @@
 Material List
 =============
 
+This is a list of the materials you will need to construct the physical mill (that is, materials other than the materials 
+gained from fab houses). 
+
+I have included, in most cases, places these materials can be acquired from (most will be where I 
+initially bought my supplies from).
+
 Linear Motion
 -------------
 
