@@ -2,7 +2,7 @@ ArduFrauenfelderCNC
 =============================
 Copyright 2011 Design Tech Industries (DTI)  & Tamworth Hackerspace
 
-DTI email: <jameskun89@rocketmail.com> |
+DTI email: <the.righteous.avengers@gmail.com> |
 THS: <http://tamworthhackerspace.org> |
 Google Group: <https://groups.google.com/group/tamworth-hackerspace>
 
