@@ -1,10 +1,10 @@
 ArduFrauenfelderCNC >> Controller Board
 =======================================
-Copyright 2011 Design Tech Industries (DTI)  & Tamworth Hackerspace
+Copyright 2012 Design Tech Industries (DTI)  & Tamworth Hackerspace
 
-In the 'controller' folder of this repository you can find the design files for the CNC controller board.
-You will find project files in EAGLE and KiCad formats, as well as completed gerber files for the board 
-ready to be sent to BatchPCB, which is the the service I designed this board to use, for manufacture.
+In the 'controller' folder of this repository you can find the design files for the CNC controller board (as well as a 
+board designed to use the Arduino Pro Micro). You will find project files in EAGLE and KiCad formats, as well as completed 
+gerber files for the board ready to be sent to BatchPCB and OSH Park, which is the the services I designed this board to use, for manufacture.
 
 I have also added eagleUp (http://eagleup.wordpress.com) files as well as a SKP of the resulting conversion 
 (minus parts as there aren't any at the moment).
