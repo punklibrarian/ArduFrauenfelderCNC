@@ -44,7 +44,7 @@ for it's construction. It has 'sketchup_exported_faces', 'sketchup_models' and '
 **For license information refer to the attached README.md file in the 'mill' folder**
 
 The 'controller' folder within this repository has all the files needed to create the controller board. 
-It has folders for the specific MCU used, 'ATmega328', 'ATmega32U4' (inside these folders are 'EAGLE', 'KiCad' 
-and 'eagleUp' folders), as well as a 'gerber' folder split into a MCU specific structure. 
+It has folders for the specific MCU used, 'ATmega328', 'ATmega32U4' (inside these folders are 'EAGLE', 'eagleUp', 
+'KiCad' and 'gerbers' folders).
 
 **For license information refer to the attached README.md file in the 'controller' folder**
