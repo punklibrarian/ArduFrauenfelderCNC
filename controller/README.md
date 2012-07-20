@@ -2,15 +2,15 @@ ArduFrauenfelderCNC >> Controller Board
 =======================================
 Copyright 2012 Design Tech Industries (DTI)  & Tamworth Hackerspace
 
-In the 'controller' folder of this repository you can find the design files for the CNC controller board (as well as a 
-board designed to use the Arduino Pro Micro). You will find project files in EAGLE and KiCad formats, as well as completed 
-gerber files for the board ready to be sent to BatchPCB and OSH Park, which is the the services I designed this board to use, for manufacture.
+In the 'controller' folder of this repository you can find the design files for the CNC controller board in an ATmega328 
+and ATmega32U4 variety. You will find project files in EAGLE and KiCad formats, as well as completed gerber files for the 
+board ready to be sent to BatchPCB and OSH Park, which are the the services I designed this board to use, for manufacture.
 
 I have also added eagleUp (http://eagleup.wordpress.com) files as well as a SKP of the resulting conversion 
 (minus parts as there aren't any at the moment).
 
 You will also find a customised version of Grbl in the form of a .HEX file. Later versions of the controller 
-board will use rStep.
+board will use rStep and be based on the ATmega644p MCU (I am also looking at using an mbed and http://smoothieware.org).
 
 INSTALLATION
 ------------
@@ -77,5 +77,5 @@ which includes:
  * Gianluca Martino
  * David A. Mellis
 
-As well as Brian Schmalz, the creator of the EasyDriver Stepper Motor Driver
-(http://schmalzhaus.com/EasyDriver).
+As well as Brian Schmalz, the creator of the EasyDriver Stepper Motor Driver (http://schmalzhaus.com/EasyDriver) 
+and Sparkfun, the creator of the Arduino Pro Micro (http://www.sparkfun.com/products/11098).

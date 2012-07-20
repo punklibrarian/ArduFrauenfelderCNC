@@ -11,10 +11,9 @@ stepper motor drivers, running grbl.
 
 Board Features:
 
- * ATmega328 MCU 
+ * ATmega328 & ATmega32U4 MCU
  * Power LED & Reset switch
  * Populated pins for FTDI breakout board
- * [As well as a controller board based around an Arduino Pro Micro]
  * SparkFun EasyDriver v4.4
  * Open Source; OSHW compliant
  * Design files freely available
@@ -33,7 +32,7 @@ production ready. It is an ongoing endeavour to create the board and mill satisf
 help in this regard please contact me, as well as if you find something that needs correction**
 
 **The only files that can be manufactured are those of the ArduFrauenfelderCNC 1.0 - Arduino Pro Micro Edition. 
-It is a fully functional design.**
+It should be a fully functional design. As on 20/07/2012 still untested.**
 
 INSIDE THIS REPOSITORY
 ----------------------
@@ -45,7 +44,7 @@ for it's construction. It has 'sketchup_exported_faces', 'sketchup_models' and '
 **For license information refer to the attached README.md file in the 'mill' folder**
 
 The 'controller' folder within this repository has all the files needed to create the controller board. 
-It has 'gerber', 'EAGLE' (split into two folders for the two different boards), 'eagleUp' and 'KiCad' (split 
-into two folders for the two different boards) folders. 
+It has folders for the specific MCU used, 'ATmega328', 'ATmega32U4' (inside these folders are 'EAGLE', 'KiCad' 
+and 'eagleUp' folders), as well as a 'gerber' folder split into a MCU specific structure. 
 
 **For license information refer to the attached README.md file in the 'controller' folder**
